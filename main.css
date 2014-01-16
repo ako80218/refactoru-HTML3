@@ -1,0 +1,122 @@
+/* ADD YOUR STYLES HERE */
+.nice-table {
+	width: 100%;
+}
+
+.nice-table td, .nice-table th {
+	border-bottom: 1px solid lightgray;
+	text-align: left;
+	font-size: 16px;
+	height: 40px;
+	padding: 0 20px 0 5px;
+}
+
+.nice-table tr:last-child td {
+	border-bottom: none;
+}
+
+.stats {
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+
+.stats td {
+	padding: 16px;
+}
+
+.large-number {
+	font-size: 38px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.small-label {
+	font-size: 12px;
+	text-align: center;
+	color: #BCBCBC;
+	font-weight: bold;
+}
+
+.bar-graph {
+	width: 100%;
+	text-align: left;
+}
+
+.bar {
+	background-color: #669DE0;
+	color: white;
+	font-weight: bold;
+	padding: 2px 0 2px 5px;
+	border-radius: 0 3px 3px 0;	
+}
+
+.bar-graph td {
+	width: 86%;
+}
+
+.bar-graph th {
+	text-align: right;
+	padding-right: 10px;
+}
+
+/*Begin lightbox*//*
+	.gray-box {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(88, 88, 88, 0.9);
+	}
+
+	.white-box {
+		position: relative;
+		margin: 15% auto;
+		height: 40%;
+		width: 40%;
+		background-color: white;
+		border-radius: 10px;
+		overflow: auto;
+	}
+
+	.white-box-text {
+		padding: 30px;
+		font-size: 18px;
+	}
+
+	.close-button {
+		float: right;
+		bottom: 30px;
+		right: 30px;
+		background-color: #E88389;
+		width: 120px;
+		height: 40px;
+		border-radius: 5px;
+	}
+
+	.close-button a {
+		color: white;
+		text-decoration: none;
+		position: relative;
+		top: 8px;
+		left: 35px;
+	}*/
+/*End lightbox*/
+
+.media-block img {
+	float: left;
+	margin-right: 10px;
+}
+
+.media-block p, media-block h2 {
+	margin-left: 60px;
+}
+
+.nested {
+	margin-left: 60px;
+}
+
+.nested p {
+	margin-left: 42px;
+}
